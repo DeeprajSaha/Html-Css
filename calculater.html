@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculater</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <div id="Calculater">
+        <input type="text" id="display" readonly>
+         
+        <div class="button-cont">
+            <button onclick="cd='';document.querySelector
+            ('#display').value = cd;
+            ">C</button>
+            <button onclick=" cd = cd + '1';document.querySelector
+            ('#display').value = cd;
+            ">1</button>
+            <button onclick=" cd = cd + '2';document.querySelector
+            ('#display').value = cd;
+            ">2</button>
+            <button onclick=" cd = cd + '+';document.querySelector
+            ('#display').value = cd;
+            ">+</button>
+            <button onclick=" cd = cd + '3';document.querySelector
+            ('#display').value = cd;
+            ">3</button>
+            <button onclick=" cd = cd + '4';document.querySelector
+            ('#display').value = cd;
+            ">4</button>
+            <button onclick=" cd = cd + '-';document.querySelector
+            ('#display').value = cd;
+            ">-</button>
+            <button onclick=" cd = cd + '5';document.querySelector
+            ('#display').value = cd;
+            ">5</button>
+            <button onclick=" cd = cd + '6';document.querySelector
+            ('#display').value = cd;
+            ">6</button>
+            <button onclick=" cd = cd + '*';document.querySelector
+            ('#display').value = cd;
+            ">*</button>
+            <button onclick=" cd = cd + '7';document.querySelector
+            ('#display').value = cd;
+            ">7</button>
+            <button onclick=" cd = cd + '8';document.querySelector
+            ('#display').value = cd;
+            ">8</button>
+            <button onclick=" cd = cd + '/';document.querySelector
+            ('#display').value = cd;
+            ">/</button>
+            <button onclick=" let result= eval(cd);
+            cd=result;
+            document.querySelector
+            ('#display').value = cd;
+            ">=</button>
+            <button onclick=" cd = cd + '9';document.querySelector
+            ('#display').value = cd;
+            ">9</button>
+            <button onclick=" cd = cd + '0';document.querySelector
+            ('#display').value = cd;
+            ">0</button>
+            <button onclick=" cd = cd + '.';document.querySelector
+            ('#display').value = cd;
+            ">.</button>
+        </div>
+    </div>
+
+
+    <script>
+        let cd='';
+        document.querySelector('#display').value = cd;
+    </script>
+</body>
+</html>
